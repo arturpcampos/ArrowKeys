@@ -42,7 +42,7 @@ public class ArrowKeys {
 			public void keyPressed(KeyEvent e) {
 				int keyCode = e.getKeyCode();
 				switch (keyCode) {
-				case KeyEvent.VK_4:
+				case KeyEvent.VK_UP:
 					up.setText("Up: " + Integer.toString(upCount++));
 					break;
 				case KeyEvent.VK_DOWN:
